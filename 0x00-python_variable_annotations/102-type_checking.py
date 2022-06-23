@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
-"""
-Ttype checking
+"""Type Checking
 """
 
-from typing import Tuple, List
+from typing import Any, List, Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
-    """
-    return a list of tuples with the 
-    lements of lst zoomed by factor
+    """ Returns a list.
     """
     zoomed_in: List = [
         item for item in lst
