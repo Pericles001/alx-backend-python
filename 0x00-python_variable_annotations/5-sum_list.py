@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" 5. Complex types - list of floats
+""" Complex types - list of floats
 """
 
 from typing import List
