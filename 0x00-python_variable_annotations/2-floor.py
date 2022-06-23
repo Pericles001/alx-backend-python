@@ -4,10 +4,10 @@ Basic annotations - floor
 """
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """
     takes a float and returns the floor of the float
     :param n:
     :return:
     """
-    return n // 1
+    return int(n) if n > 0 else int(n) - 1
